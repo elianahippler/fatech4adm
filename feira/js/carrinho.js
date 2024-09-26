@@ -1,22 +1,24 @@
 const agua = [
     {id: 0, nome: 'Água com gás', img: '../feira/imagens/produtos/0.jpeg', preco: 3.00, quantidade: 0},
     {id: 1, nome: 'Água sem gás', img: '../feira/imagens/produtos/1.jpeg', preco: 3.00, quantidade: 0},
+    {id: 2, nome: 'Suco 500ml', img: '../feira/imagens/produtos/9.jpg', preco: 10.00, quantidade: 0},
+    {id: 3, nome: 'Suco 330ml', img: '../feira/imagens/produtos/10.jpg', preco: 7.00, quantidade: 0},
 ];
 
 const trufas = [
-    {id: 2, nome: 'Trufa de Brigadeiro', img: '../feira/imagens/produtos/2.jpg', preco: 4.00, quantidade: 0},
-    {id: 3, nome: 'Trufa de Uva', img: '../feira/imagens/produtos/3.jpg', preco: 4.00, quantidade: 0},
-    {id: 4, nome: 'Trufa de Maracujá', img: '../feira/imagens/produtos/4.jpg', preco: 4.00, quantidade: 0},
+    {id: 4, nome: 'Trufa de Brigadeiro', img: '../feira/imagens/produtos/2.jpg', preco: 4.00, quantidade: 0},
+    {id: 5, nome: 'Trufa de Paçoca', img: '../feira/imagens/produtos/3.jpg', preco: 4.00, quantidade: 0},
+    {id: 6, nome: 'Trufa de Maracujá', img: '../feira/imagens/produtos/4.jpg', preco: 4.00, quantidade: 0},
 ];
 
 const paodemel = [
-    {id: 5, nome: 'Pão de Mel - Brigadeiro', img: '../feira/imagens/produtos/5.jpg', preco: 10.00, quantidade: 0},
-    {id: 6, nome: 'Pão de Mel - Maracujá', img: '../feira/imagens/produtos/6.jpg', preco: 10.00, quantidade: 0},
-    {id: 7, nome: 'Pão de Mel - Doce Leite', img: '../feira/imagens/produtos/7.jpg', preco: 10.00, quantidade: 0},  
+    {id: 7, nome: 'Pão de Mel - Brigadeiro', img: '../feira/imagens/produtos/5.jpg', preco: 10.00, quantidade: 0},
+    {id: 8, nome: 'Pão de Mel - Maracujá', img: '../feira/imagens/produtos/6.jpg', preco: 10.00, quantidade: 0},
+    {id: 9, nome: 'Pão de Mel - Doce Leite', img: '../feira/imagens/produtos/7.jpg', preco: 10.00, quantidade: 0},  
 ];
 
 const brownie = [
-    {id: 8, nome: 'Brownie', img: '../feira/imagens/produtos/8.jpg', preco: 10.00, quantidade: 0},
+    {id: 10, nome: 'Brownie', img: '../feira/imagens/produtos/8.jpg', preco: 10.00, quantidade: 0},
 ];
 
 const allItems = agua.concat(trufas, paodemel, brownie);
